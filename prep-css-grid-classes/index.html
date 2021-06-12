@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Grid Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Complete the HTML here -->
+<h1>Indian Jones</h1>
+<div class="container">
+  <div class="row">
+    <div class="column">
+      <h3>Indiana Jones and the Last Crusade</h3>
+      <img src="images/crusade.png" alt="Indian Jones Crusade" width="100%">
+      <p>Indian Jones and the last Crusade has a scene where Indian Jones is a young boy
+        in a scout troop. He fights as man with a whip in a lion cage. The man gives him
+        his hat so he won't hurt him anymore.
+      </p>
+    </div>
+    <div class="column">
+      <h3>Raiders of the Lost Ark</h3>
+      <img src="images/raiders.jpg" alt="Indian Jones Raiders" width="100%">
+      <p>This movie is about Indiana Jones and a big rock that chases him. He gets away and doesnt
+        get squished, so now we have to put up with Indiana Jones and the Kingdom of the Crystal Skull.
+      </p>
+    </div>
+    <div class="column">
+      <h3>Indiana Jones and the Temple of Doom</h3>
+      <img src="images/temple.jpg" alt="Indian Jones Temple" width="100%">
+      <p>This movie is about Indiana Jones and the last remaining Kinder Eggs.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
