@@ -1,63 +1,62 @@
-/* eslint-disable no-undef */
-/* eslint-disable no-unused-vars */
-function addTwoNumbers(x, y) {
-  return x + y;
+// Add together
+function addTwoNumbers(num1, num2) {
+  return num1 + num2;
 }
 var addTwoNumbersResult = addTwoNumbers(2, 2);
-console.log('addTwoNumbers Exercise: ', addTwoNumbersResult);
+console.log('Add two numbers exercise: ' + addTwoNumbersResult);
 
+// Convert hours to min
 function convertHoursToMinutes(hours) {
-  hours = hours * 60;
-  return hours;
+  return hours * 60;
 }
-var minutes = convertHoursToMinutes(2);
-console.log(minutes);
+var convertHoursToMinutesResult = convertHoursToMinutes(2);
+console.log('That many hours is equal to this many minutes: ' + convertHoursToMinutesResult);
 
+// This greeting says hello to the guest
 function getGreeting(name) {
-  name = 'Hello! ' + name;
-  return name;
+  return 'Hello ' + name;
 }
-var helloName = getGreeting('Jacob');
-console.log(helloName);
+var getGreetingPersonal = getGreeting('Tim D');
+console.log(getGreetingPersonal);
 
+// This adds then numbers and then multiplies by 5
 function addAndMultiplyBy5(num1, num2) {
-  fivesAns = (num1 + num2) * 5;
-  return fivesAns;
+  return (num1 + num2) * 5;
 }
-addAndMultiplyBy5(2, 4);
-console.log('The product is ' + fivesAns);
+var addAndMultiplyBy5Ans = addAndMultiplyBy5(5, 6);
+console.log('The product is: ' + addAndMultiplyBy5Ans);
 
+// This will multiply two numbers then divide by 5
 function multiplyAndDivideBy5(num1, num2) {
-  multAndDiv5 = (num1 * num2) / 5;
-  return multAndDiv5;
+  return (num1 * num2) / 5;
 }
-multiplyAndDivideBy5(10, 1);
-console.log('The quotient is ' + multAndDiv5);
+var multiplyAndDivideBy5Ans = multiplyAndDivideBy5(30, 10);
+console.log('The quotient is: ' + multiplyAndDivideBy5Ans);
 
+// This will subtract two numbers
 function subtractTwoNumbers(num1, num2) {
-  difference = (num1 - num2);
-  return difference;
+  return num1 - num2;
 }
-subtractTwoNumbers(100, 20);
-console.log('The difference is ' + difference);
+var subtractTwoNumbersAns = subtractTwoNumbers(60, 40);
+console.log('The difference is: ' + subtractTwoNumbersAns);
 
+// This will get the circumference of a circle
 function getCircleCircumference(radius) {
-  circ = 2 * radius * 3.14;
-  return circ;
+  return (2 * radius) * 3.14;
 }
-getCircleCircumference(10);
-console.log('The radius is ' + circ);
+var getCircleCircumferenceAns = getCircleCircumference(5);
+console.log('The circumference is: ' + getCircleCircumferenceAns);
 
+// This will get the users full name
 function getFullName(firstName, lastName) {
-  fullName = firstName + lastName;
-  return fullName;
+  return firstName + lastName;
 }
-getFullName('Tom ', 'Riddle');
-console.log('My name is ' + fullName);
+var getFullNameAns = getFullName('Tom ', 'Riddle');
+console.log('My name is ' + getFullNameAns);
 
+// This will cube a number
 function cube(number) {
-  cubedNum = number * number;
-  return cubedNum;
+  return number * number;
 }
-cube(5);
-console.log('The number cubed is ' + cubedNum);
+var cubeAns = cube(5);
+console.log('The number cubed is ' + cubeAns);
